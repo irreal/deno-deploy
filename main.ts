@@ -3,4 +3,5 @@ addEventListener("fetch", (event) => {
     headers: { "content-type": "text/plain" },
   });
   event.respondWith(response);
+  console.log('test log');
 });
